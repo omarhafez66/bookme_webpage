@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>BookMe</title>
+    <meta name="description"
+        content="Book with us to attend all events, festivals and even matches! Available in Egypt" />
+</head>
+
+<body>
+    <header>
+        <h1>BookMe.com</h1>
+        <p> <i>First Website in Egypt and Middle East helps you to go to all <br>important events and festivals
+                and Matches! Book Me Now.</i>
+        </p>
+    </header>
+    <hr>
+    <!-- sign up section -->
+    <section>
+        <h2>Sign In</h2>
+        <form method="get">
+            <div>
+                <label for="un">Username: </label>
+                <input type="text" required name="Username" id="un">
+            </div>
+            <br>
+            <div>
+                <label for="pw">Password: </label>
+                <input type="password" required placeholder="************" name="pass" minlength="8" id="pw">
+            </div>
+            <br>
+            <label for="mail">Email: </label>
+            <input type="email" name="mail" id="mail" placeholder="Example66@gmail.com" required>
+            <br>
+            <br>
+            <label for="num">Phone Number: </label>
+            <input type="number" name="num" id="num" value="01141711873" disabled>
+            <br>
+            <br>
+            <label for="date">Date of Birth: </label>
+            <input id="date" type="date">
+            <br>
+            <br>
+            <label for="ID">National ID: </label>
+            <input type="text" name="ID" id="ID" min="14" max="14" placeholder="Enter the 14 Digits">
+            <br>
+            <br>
+            <div>
+                <label for="G">Choose your Gender</label>
+                <select name="Gender" id="G">
+                    <option value="Male" selected>Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="Club">Choose your favorite Club</label>
+                <select name="Club" id="Club">
+                    <optgroup label="Cairo">
+                        <option value="AlAhly" selected>AlAhly Club</option>
+                        <option value="Zamalek">Zamalek SC</option>
+                        <option value="Pyramids">Pyramids</option>
+                    </optgroup>
+                    <optgroup label="Alexandria">
+                        <option value="Iltihad">Iltihad ElSakandry</option>
+                        <option value="Soumoha">Soumoha SC</option>
+                    </optgroup>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="PP">Uploud Photo for you</label>
+                <input id="PP" type="file" name="Personal Image">
+            </div>
+            <br>
+            <div>
+                <input id="t&c" type="checkbox" name="terms and conditions" value="apply t&c" required>
+                <label for="t&C">Terms and Conditions</label>
+            </div>
+            <br>
+            <input type="reset">
+            <input type="submit" value="Save">
+          
+        </form>
+    </section>
+    <hr>
+    <!-- Events section -->
+    <section>
+        <h2>Events</h2>
+        <iframe src="eventsPage.html" width="800" height="800"></iframe>
+    </section>
+    <hr>
+    <!-- Matches Section -->
+    <section>
+        <h2>Soccer Matches</h2>
+        <table border="4" cellpadding="10px">
+            <caption>Matches Schedule</caption>
+            <thead>
+                <tr>
+                    <th>Match</th>
+                    <th>Stadium</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AlAhly VS Zamalek</td>
+                    <td>Cairo Stadium</td>
+                    <td>27 November 2024</td>
+                </tr>
+                <tr>
+                    <td>Pyramids VS Soumoha</td>
+                    <td>Alexandria Stadium</td>
+                    <td>28 November 2024</td>
+                </tr>
+                <tr>
+                    <td>Iltihad ElSakandry VS El-Bank AlAhly</td>
+                    <td>El-Salam Stadium</td>
+                    <td>28 November 2024</td>
+                </tr>
+                <tr>
+                    <td colspan="3">The price is the same for all Matches: 75 EG</td>
+                </tr>
+            </tbody>
+        </table>
+        <small>real live matches <a href="https://www.goal.com/en/live-scores" title="Goal Website"
+                target="_blank">here</a></small>
+        <br>
+        <img src="imgs/ss_20241030_143614140_26776911000.jpg" width="600" height="350" alt="Omar Marmoush photo">
+        <br>
+        <br>
+        <audio controls>
+            <source src="media/اغنيه اولتراس اهلاوى حكايتنا.mp3" type="audio/mpeg">
+            sorry i cant play the audio
+        </audio>
+    </section>
+<hr>
+    <footer>
+        <h3>Our Stores</h3>
+        <ul>
+            <li>Alexandria<ul>
+                    <li>17 Aezbt Saad St.</li>
+                </ul>
+            </li>
+            <li>Cairo<ul>
+                <li>80 abbas el akkad St.</li>
+                <li>66 shobra st.</li>
+            </ul>
+        </li>
+        </ul>
+        <br>
+        <a href="mailto:3omarhafez66@gmail.com" type="mail">Contact Me</a>
+    </footer>
+</body>
+
+</html>
